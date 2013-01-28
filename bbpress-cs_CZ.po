@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 2.2.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-28 10:14+0100\n"
+"PO-Revision-Date: 2013-01-28 12:16+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -139,6 +139,8 @@ msgid ""
 "This topic is marked as closed to new replies, however your posting "
 "capabilities still allow you to do so."
 msgstr ""
+"Toto téma je uzavřené novým komentářům, avšak vaše pravomoce vám dovolují "
+"komentovat."
 
 #: templates/default/bbpress/form-reply.php:60
 #: templates/default/bbpress/form-topic.php:86
@@ -176,7 +178,7 @@ msgstr "Důvod editace (nepovinné):"
 
 #: templates/default/bbpress/form-reply.php:172
 msgid "The topic &#8216;%s&#8217; is closed to new replies."
-msgstr ""
+msgstr "Téma &#8216;%s&#8217; je uzavřeno pro nové komentáře."
 
 #: templates/default/bbpress/form-reply.php:180
 #: templates/default/bbpress/form-topic.php:221
@@ -189,7 +191,7 @@ msgstr ""
 
 #: templates/default/bbpress/form-reply.php:188
 msgid "You must be logged in to reply to this topic."
-msgstr ""
+msgstr "Musíte být přihlášen pro komentování tématu."
 
 #: templates/default/bbpress/form-topic-merge.php:24
 msgid "Merge topic \"%s\""
@@ -200,12 +202,15 @@ msgid ""
 "Select the topic to merge this one into. The destination topic will remain "
 "the lead topic, and this one will change into a reply."
 msgstr ""
+"Zvolte cílové téma do kterého chcete toto přemístit. Cílové téma zůstane "
+"zachováno jak je, ale toto téma se změní jako odpovědi."
 
 #: templates/default/bbpress/form-topic-merge.php:30
 msgid ""
 "To keep this topic as the lead, go to the other topic and use the merge tool "
 "from there instead."
 msgstr ""
+"Pokud chcete zachovat toto jako téma, jděte do druhého a spojte ho s tímto."
 
 #: templates/default/bbpress/form-topic-merge.php:34
 msgid ""
@@ -214,6 +219,9 @@ msgid ""
 "destination topic was created after this one, it's post date will be updated "
 "to second earlier than this one."
 msgstr ""
+"Všechny odpovědi spolu s tématem budou spojeny chronoligicky. Způsob řazení "
+"je závislý na čase a datumu, kdy byl příspěvek napsán. Pokud v cílovém "
+"tématu byl vytvořen příspěvek za títmto, bude zařazen jako druhý podle data."
 
 #: templates/default/bbpress/form-topic-merge.php:38
 msgid "Destination"
@@ -315,37 +323,39 @@ msgstr ""
 
 #: templates/default/bbpress/form-topic-tag.php:18
 msgid "Manage Tag: \"%s\""
-msgstr ""
+msgstr "Spravovat štítek: \"%s\""
 
 #: templates/default/bbpress/form-topic-tag.php:22
 msgid "Rename"
-msgstr ""
+msgstr "Přejmenovat"
 
 #: templates/default/bbpress/form-topic-tag.php:25
 msgid "Leave the slug empty to have one automatically generated."
-msgstr ""
+msgstr "Můžete nechat slug prázdný, aby se automaticky vygeneroval nový."
 
 #: templates/default/bbpress/form-topic-tag.php:29
 msgid ""
 "Changing the slug affects its permalink. Any links to the old slug will stop "
 "working."
 msgstr ""
+"Změnou slugu změníte permanentní odkazy (linky). Jakékoliv linky starého "
+"slugu přestanou fungovat."
 
 #: templates/default/bbpress/form-topic-tag.php:40
 msgid "Slug:"
-msgstr ""
+msgstr "Slug (URL):"
 
 #: templates/default/bbpress/form-topic-tag.php:45
 msgid "Update"
-msgstr ""
+msgstr "Aktualizovat"
 
 #: templates/default/bbpress/form-topic-tag.php:62
 msgid "Merging tags together cannot be undone."
-msgstr ""
+msgstr "Spojení štítků dohromady nelze vrátit zpět."
 
 #: templates/default/bbpress/form-topic-tag.php:68
 msgid "Existing tag:"
-msgstr ""
+msgstr "Existující štítek:"
 
 #: templates/default/bbpress/form-topic-tag.php:73
 msgid ""
@@ -354,15 +364,15 @@ msgstr ""
 
 #: templates/default/bbpress/form-topic-tag.php:91
 msgid "This does not delete your topics. Only the tag itself is deleted."
-msgstr ""
+msgstr "Tento proces nesmaže téma, ale štítek."
 
 #: templates/default/bbpress/form-topic-tag.php:94
 msgid "Deleting a tag cannot be undone."
-msgstr ""
+msgstr "Smazání štítku nelze vrátit zpět."
 
 #: templates/default/bbpress/form-topic-tag.php:95
 msgid "Any links to this tag will no longer function."
-msgstr ""
+msgstr "Jakékoliv odkazy na tento štítek přestanou fungovat."
 
 #: templates/default/bbpress/form-topic-tag.php:101
 msgid ""
@@ -414,17 +424,17 @@ msgstr "Přezdívka (nick)"
 
 #: templates/default/bbpress/form-user-edit.php:39
 msgid "Display Name"
-msgstr ""
+msgstr "Zobrazit jako"
 
 #: templates/default/bbpress/form-user-edit.php:49
 #: templates/default/bbpress/form-user-edit.php:52
 msgid "Contact Info"
-msgstr ""
+msgstr "Kontaktní informace"
 
 #: templates/default/bbpress/form-user-edit.php:74
 #: templates/default/bbpress/form-user-edit.php:77
 msgid "About Yourself"
-msgstr ""
+msgstr "Napište něco málo o sobě"
 
 #: templates/default/bbpress/form-user-edit.php:74
 #: templates/default/bbpress/form-user-edit.php:77
@@ -433,7 +443,7 @@ msgstr ""
 
 #: templates/default/bbpress/form-user-edit.php:82
 msgid "Biographical Info"
-msgstr ""
+msgstr "Biografické informace"
 
 #: templates/default/bbpress/form-user-edit.php:84
 msgid ""
@@ -458,23 +468,26 @@ msgstr ""
 
 #: templates/default/bbpress/form-user-edit.php:126
 msgid "New Password"
-msgstr ""
+msgstr "Nové heslo"
 
 #: templates/default/bbpress/form-user-edit.php:129
 msgid ""
 "If you would like to change the password type a new one. Otherwise leave "
 "this blank."
 msgstr ""
+"Pokud si chcete změnit heslo, napište ho zde. Jinak nechte toto pole prázdné."
 
 #: templates/default/bbpress/form-user-edit.php:132
 msgid "Type your new password again."
-msgstr ""
+msgstr "Napište znovu nové heslo"
 
 #: templates/default/bbpress/form-user-edit.php:135
 msgid ""
 "Your password should be at least ten characters long. Use upper and lower "
 "case letters, numbers, and symbols to make it even stronger."
 msgstr ""
+"Vaše heslo by mělo být nejméně 10 znaků dlouhé. Používejte malé a velké "
+"písmena, číslice a symboly pro větší sílu hesla."
 
 #: templates/default/bbpress/form-user-edit.php:145
 #: templates/default/bbpress/form-user-edit.php:148
@@ -586,11 +599,11 @@ msgstr "Založeno témat: %s"
 
 #: templates/default/bbpress/user-profile.php:26
 msgid "Replies Created: %s"
-msgstr "Vytvořeno odpovědí"
+msgstr "Vytvořeno odpovědí: %s"
 
 #: templates/default/bbpress/user-replies-created.php:15
 msgid "Forum Replies Created"
-msgstr ""
+msgstr "Vytvořené odpovědi na fóru"
 
 #: templates/default/bbpress/user-replies-created.php:28
 msgid "You have not replied to any topics."
@@ -602,35 +615,35 @@ msgstr ""
 
 #: templates/default/bbpress/user-subscriptions.php:19
 msgid "Subscribed Forum Topics"
-msgstr ""
+msgstr "Odebíraná témata na fóru"
 
 #: templates/default/bbpress/user-subscriptions.php:32
 msgid "You are not currently subscribed to any topics."
-msgstr ""
+msgstr "Aktuálně nejste přihlášen k odběru témat."
 
 #: templates/default/bbpress/user-subscriptions.php:32
 msgid "This user is not currently subscribed to any topics."
-msgstr ""
+msgstr "Tento uživatel momentálně není přihlášen k odběru témat."
 
 #: templates/default/bbpress/user-topics-created.php:15
 msgid "Forum Topics Started"
-msgstr ""
+msgstr "Založené témata na fóru"
 
 #: templates/default/bbpress/user-topics-created.php:28
 msgid "You have not created any topics."
-msgstr ""
+msgstr "Nevytvořil jste žádné téma"
 
 #: templates/default/bbpress/user-topics-created.php:28
 msgid "This user has not created any topics."
-msgstr ""
+msgstr "Tento uživatel nevytvořil žádné téma."
 
 #: templates/default/bbpress-functions.php:251
 msgid "favorites"
-msgstr ""
+msgstr "oblíbené"
 
 #: templates/default/bbpress-functions.php:252
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: templates/default/bbpress-functions.php:253
 msgid "This topic is one of your %favLinkYes% [%favDel%]"
@@ -646,7 +659,7 @@ msgstr ""
 
 #: templates/default/extras/page-forum-statistics.php:34
 msgid "Registered Users"
-msgstr ""
+msgstr "Registrovaní úživatelé"
 
 #: templates/default/extras/page-forum-statistics.php:61
 msgid "Empty Topic Tags"
@@ -683,7 +696,7 @@ msgstr ""
 
 #: bbpress.php:475 bbpress.php:479
 msgid "New Forum"
-msgstr ""
+msgstr "Nové fórum"
 
 #: bbpress.php:388 templates/default/bbpress-functions.php:68
 msgid "bbPress Default"
@@ -705,7 +718,7 @@ msgstr "Téma"
 #: templates/default/bbpress/loop-forums.php:20
 #: templates/default/extras/page-forum-statistics.php:44
 msgid "Topics"
-msgstr "Témat"
+msgstr "Témata"
 
 #: bbpress.php:485 templates/default/bbpress/form-forum.php:129
 msgid "Parent Forum:"
@@ -753,7 +766,7 @@ msgstr ""
 
 #: bbpress.php:474 includes/admin/tools.php:1004
 msgid "All Forums"
-msgstr ""
+msgstr "Všechna fóra"
 
 #: bbpress.php:473 includes/admin/forums.php:420
 #: includes/admin/metaboxes.php:50 includes/admin/metaboxes.php:358
@@ -763,7 +776,7 @@ msgstr ""
 #: includes/forums/template-tags.php:2135
 #: templates/default/bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr ""
+msgstr "Fórum"
 
 #: bbpress.php:477 bbpress.php:534 bbpress.php:591
 #: includes/common/template-tags.php:1959
@@ -776,27 +789,27 @@ msgstr "Editovat"
 #: bbpress.php:531 includes/admin/tools.php:1005
 #: includes/topics/functions.php:3224
 msgid "All Topics"
-msgstr ""
+msgstr "Všechna témata"
 
 #: bbpress.php:532 bbpress.php:536
 msgid "New Topic"
-msgstr ""
+msgstr "Nové téma"
 
 #: bbpress.php:533 templates/default/bbpress/form-topic.php:43
 msgid "Create New Topic"
-msgstr ""
+msgstr "Vytvořit nové téma"
 
 #: bbpress.php:535
 msgid "Edit Topic"
-msgstr ""
+msgstr "Editovat téma"
 
 #: bbpress.php:537 bbpress.php:538
 msgid "View Topic"
-msgstr ""
+msgstr "Zobrazit téma"
 
 #: bbpress.php:539
 msgid "Search Topics"
-msgstr ""
+msgstr "Hledat téma"
 
 #: bbpress.php:540
 msgid "No topics found"
@@ -868,7 +881,7 @@ msgstr ""
 
 #: bbpress.php:599 includes/admin/metaboxes.php:436
 msgid "Topic:"
-msgstr ""
+msgstr "Téma:"
 
 #: bbpress.php:622
 msgid "bbPress Replies"
@@ -877,7 +890,7 @@ msgstr ""
 #: bbpress.php:657
 msgctxt "post"
 msgid "Closed"
-msgstr ""
+msgstr "Zavřené"
 
 #: bbpress.php:658
 msgctxt "bbpress"
@@ -890,7 +903,7 @@ msgstr[2] ""
 #: bbpress.php:668
 msgctxt "post"
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: bbpress.php:669
 msgctxt "bbpress"
@@ -903,7 +916,7 @@ msgstr[2] ""
 #: bbpress.php:681
 msgctxt "post"
 msgid "Orphan"
-msgstr ""
+msgstr "Syrotek"
 
 #: bbpress.php:682
 msgctxt "bbpress"
@@ -916,7 +929,7 @@ msgstr[2] ""
 #: bbpress.php:694
 msgctxt "post"
 msgid "Hidden"
-msgstr ""
+msgstr "Skryté"
 
 #: bbpress.php:695
 msgctxt "bbpress"
@@ -932,7 +945,7 @@ msgstr "Štítky témat"
 
 #: bbpress.php:741 includes/admin/metaboxes.php:103
 msgid "Topic Tag"
-msgstr ""
+msgstr "Štítek příspěvku"
 
 #: bbpress.php:742
 msgid "Search Tags"
@@ -1586,7 +1599,7 @@ msgstr ""
 
 #: includes/admin/forums.php:206 includes/admin/forums.php:254
 msgid "Forum Attributes"
-msgstr ""
+msgstr "Vlastnosti fóra"
 
 #: includes/admin/forums.php:208
 msgid "Select the attributes that your forum should have:"
@@ -1654,7 +1667,7 @@ msgstr ""
 #: includes/admin/forums.php:424 includes/admin/replies.php:624
 #: includes/admin/topics.php:690
 msgid "Created"
-msgstr ""
+msgstr "Vytvořeno"
 
 #: includes/admin/forums.php:425 includes/admin/topics.php:691
 #: templates/default/bbpress/loop-forums.php:22
@@ -1673,7 +1686,7 @@ msgstr ""
 
 #: includes/admin/forums.php:540
 msgid "Forum updated. <a href=\"%s\">View forum</a>"
-msgstr ""
+msgstr "Fórum bylo aktualizováno. <a href=\"%s\">Zobrazit fórum</a>"
 
 #: includes/admin/forums.php:543 includes/admin/replies.php:904
 #: includes/admin/topics.php:976
@@ -1763,21 +1776,21 @@ msgstr ""
 #: includes/admin/metaboxes.php:261 includes/admin/metaboxes.php:262
 #: includes/admin/metaboxes.php:351
 msgid "Type:"
-msgstr ""
+msgstr "Typ:"
 
 #: includes/admin/metaboxes.php:273 includes/admin/metaboxes.php:274
 #: templates/default/bbpress/form-forum.php:111
 msgid "Status:"
-msgstr ""
+msgstr "Stav:"
 
 #: includes/admin/metaboxes.php:285 includes/admin/metaboxes.php:286
 #: templates/default/bbpress/form-forum.php:120
 msgid "Visibility:"
-msgstr ""
+msgstr "Viditelnost:"
 
 #: includes/admin/metaboxes.php:299
 msgid "Parent:"
-msgstr ""
+msgstr "Nadřazené:"
 
 #: includes/admin/metaboxes.php:300
 msgid "Forum Parent"
@@ -1790,7 +1803,7 @@ msgstr ""
 
 #: includes/admin/metaboxes.php:323
 msgid "Order:"
-msgstr ""
+msgstr "Pořadí:"
 
 #: includes/admin/metaboxes.php:324
 msgid "Forum Order"
@@ -1803,13 +1816,13 @@ msgstr ""
 #: includes/admin/metaboxes.php:467
 #: templates/default/bbpress/form-topic-tag.php:35
 msgid "Name:"
-msgstr ""
+msgstr "Název:"
 
 #: includes/admin/metaboxes.php:468
 #: templates/default/bbpress/form-user-edit.php:14
 #: templates/default/bbpress/form-user-edit.php:19
 msgid "Name"
-msgstr ""
+msgstr "Osobní informace"
 
 #: includes/admin/metaboxes.php:473
 msgid "Email:"
@@ -2010,7 +2023,7 @@ msgstr ""
 #: includes/admin/replies.php:351 includes/admin/topics.php:369
 #: templates/default/bbpress/form-anonymous.php:17
 msgid "Author Information"
-msgstr ""
+msgstr "Informace o autorovi"
 
 #: includes/admin/replies.php:512
 msgid "The reply was not found!"
@@ -2199,7 +2212,7 @@ msgstr "Zakázat editování za"
 
 #: includes/admin/settings.php:89
 msgid "Throttle posting every"
-msgstr "Omezit možnost komentování každých"
+msgstr "Omezit možnost vkládání nových příspěvků každých"
 
 #: includes/admin/settings.php:97 includes/admin/settings.php:1425
 msgid "Revisions"
@@ -2297,7 +2310,7 @@ msgstr "Hlavní nastavení fóra, funkcí a časových intervalů"
 
 #: includes/admin/settings.php:386 includes/common/functions.php:121
 msgid "minutes"
-msgstr "minut"
+msgstr "minuty"
 
 #: includes/admin/settings.php:402 includes/common/functions.php:122
 msgid "seconds"
@@ -2911,19 +2924,19 @@ msgstr ""
 
 #: includes/admin/tools.php:1020
 msgid "This process cannot be undone."
-msgstr ""
+msgstr "Tento proces je nevratný."
 
 #: includes/admin/tools.php:1028
 msgid "Reset bbPress"
-msgstr ""
+msgstr "Restartovat bbPress"
 
 #: includes/admin/tools.php:1053
 msgid "Failed"
-msgstr ""
+msgstr "Neúspěch"
 
 #: includes/admin/tools.php:1054
 msgid "Success!"
-msgstr ""
+msgstr "Úspěch!"
 
 #: includes/admin/tools.php:1061
 msgid "Deleting Posts&hellip; %s"
@@ -3108,7 +3121,7 @@ msgstr ""
 
 #: includes/admin/topics.php:222 includes/admin/topics.php:267
 msgid "Topic Attributes"
-msgstr ""
+msgstr "Vlastnosti tématu"
 
 #: includes/admin/topics.php:224
 msgid "Select the attributes that your topic should have:"
@@ -3223,7 +3236,7 @@ msgstr ""
 #: includes/admin/topics.php:842
 msgctxt "Open a Topic"
 msgid "Open"
-msgstr ""
+msgstr "Otevřít téma"
 
 #: includes/admin/topics.php:851
 msgid "Unstick this topic"
@@ -3323,7 +3336,7 @@ msgstr "právě teď"
 
 #: includes/common/functions.php:112
 msgid "%s ago"
-msgstr "%s staré"
+msgstr "před %s"
 
 #: includes/common/functions.php:116
 msgid "year"
@@ -3359,19 +3372,19 @@ msgstr "dnů"
 
 #: includes/common/functions.php:120
 msgid "hour"
-msgstr "hodina"
+msgstr "hodinou"
 
 #: includes/common/functions.php:120
 msgid "hours"
-msgstr "hodin"
+msgstr "hodiny"
 
 #: includes/common/functions.php:121
 msgid "minute"
-msgstr "minuta"
+msgstr "minutou"
 
 #: includes/common/functions.php:122
 msgid "second"
-msgstr "sekund"
+msgstr "sekundy"
 
 #: includes/common/functions.php:177
 msgctxt "Separator in time since"
@@ -3437,7 +3450,7 @@ msgstr "Nejsou zde žádné příspěvky"
 
 #: includes/common/template-tags.php:1344
 msgid "No forums available"
-msgstr ""
+msgstr "Žádné fórum není dostupné"
 
 #: includes/common/template-tags.php:1349
 msgid "None available"
@@ -3456,7 +3469,7 @@ msgstr "Domů"
 
 #: includes/common/template-tags.php:1951
 msgid "(Edit)"
-msgstr ""
+msgstr "(Editovat)"
 
 #: includes/common/template-tags.php:1955
 #: includes/common/template-tags.php:2065
@@ -3464,7 +3477,7 @@ msgstr ""
 #: templates/default/extras/taxonomy-topic-tag-edit.php:17
 #: templates/default/extras/taxonomy-topic-tag.php:17
 msgid "Topic Tag: %s"
-msgstr ""
+msgstr "Štítek příspěvku: %s"
 
 #: includes/common/template-tags.php:1976
 msgid "&rsaquo;"
@@ -3472,7 +3485,7 @@ msgstr ""
 
 #: includes/common/template-tags.php:2216
 msgid "Log Out"
-msgstr ""
+msgstr "Odhlásit se"
 
 #: includes/common/template-tags.php:2269
 msgid "Forum: %s"
@@ -3516,33 +3529,33 @@ msgstr ""
 #: templates/default/bbpress/form-user-login.php:14
 #: templates/default/bbpress/form-user-login.php:35
 msgid "Log In"
-msgstr ""
+msgstr "Příhlásit se"
 
 #: includes/common/widgets.php:85
 #: templates/default/bbpress/form-user-edit.php:99
 #: templates/default/bbpress/form-user-login.php:17
 #: templates/default/bbpress/form-user-register.php:23
 msgid "Username"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: includes/common/widgets.php:90
 #: templates/default/bbpress/form-user-login.php:22
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: includes/common/widgets.php:96
 msgid "Remember Me"
-msgstr ""
+msgstr "Zapamatovat si mě"
 
 #: includes/common/widgets.php:115
 #: templates/default/bbpress/form-user-register.php:36
 msgid "Register"
-msgstr ""
+msgstr "Regostrovat"
 
 #: includes/common/widgets.php:121
 #: templates/default/bbpress/form-user-lost-pass.php:14
 msgid "Lost Password"
-msgstr ""
+msgstr "Ztracené heslo"
 
 #: includes/common/widgets.php:182 includes/common/widgets.php:308
 #: includes/common/widgets.php:450 includes/common/widgets.php:668
@@ -3678,7 +3691,7 @@ msgstr "Pozorovatel"
 
 #: includes/core/capabilities.php:431
 msgid "Visitor"
-msgstr ""
+msgstr "Návštěvník"
 
 #: includes/core/capabilities.php:437
 msgid "Blocked"
@@ -3799,13 +3812,13 @@ msgstr ""
 #: includes/extend/buddypress/loader.php:267
 #: templates/default/bbpress/user-details.php:35
 msgid "Topics Started"
-msgstr ""
+msgstr "Založené témata"
 
 #: includes/extend/buddypress/loader.php:202
 #: includes/extend/buddypress/loader.php:275
 #: templates/default/bbpress/user-details.php:41
 msgid "Replies Created"
-msgstr ""
+msgstr "Vytvořené odpovědi"
 
 #: includes/extend/buddypress/loader.php:283
 msgid "Favorite Topics"
@@ -3956,30 +3969,30 @@ msgstr ""
 
 #: includes/forums/template-tags.php:2136
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #: includes/forums/template-tags.php:2173
 msgctxt "Forum Status"
 msgid "Open"
-msgstr ""
+msgstr "Otevřeno"
 
 #: includes/forums/template-tags.php:2174
 msgctxt "Forum Status"
 msgid "Closed"
-msgstr ""
+msgstr "Zavřeno"
 
 #: includes/forums/template-tags.php:2211
 msgid "Public"
-msgstr ""
+msgstr "Veřejné"
 
 #: includes/forums/template-tags.php:2212
 #: templates/default/bbpress/feedback-no-access.php:13
 msgid "Private"
-msgstr ""
+msgstr "Soukromé"
 
 #: includes/forums/template-tags.php:2213
 msgid "Hidden"
-msgstr ""
+msgstr "Skryté"
 
 #: includes/replies/functions.php:143
 msgid "<strong>ERROR</strong>: You do not have permission to reply."
@@ -4112,7 +4125,7 @@ msgstr "Anonym"
 #: includes/topics/template-tags.php:1340
 #: includes/users/template-tags.php:1383
 msgid "View %s's profile"
-msgstr "Zobrazit %s's profil"
+msgstr "Zobrazit profil uživatele %s"
 
 #: includes/replies/template-tags.php:1031
 #: includes/topics/template-tags.php:1340
@@ -4135,7 +4148,7 @@ msgstr ""
 #: includes/replies/template-tags.php:1720
 #: includes/topics/template-tags.php:2644
 msgid "Unspam"
-msgstr ""
+msgstr "Není spam"
 
 #: includes/replies/template-tags.php:1783
 msgid "Split"
@@ -4394,11 +4407,11 @@ msgstr ""
 
 #: includes/topics/template-tags.php:865
 msgid "This topic was modified %1$s by %2$s. Reason: %3$s"
-msgstr ""
+msgstr "Tento příspěvek byl upraven %1$s uživatelem %2$s. Důvod: %3$s"
 
 #: includes/topics/template-tags.php:867
 msgid "This topic was modified %1$s by %2$s."
-msgstr ""
+msgstr "Tento příspěvek byl upraven %1$s uživatelem %2$s."
 
 #: includes/topics/template-tags.php:2060
 msgid "Tagged:"
@@ -4516,19 +4529,19 @@ msgstr "Hlavní admin"
 
 #: includes/users/template-tags.php:442
 msgid "Inactive"
-msgstr ""
+msgstr "Neaktivní"
 
 #: includes/users/template-tags.php:446
 msgid "Guest"
-msgstr ""
+msgstr "Návštěvník"
 
 #: includes/users/template-tags.php:458
 msgid "Member"
-msgstr ""
+msgstr "Člen"
 
 #: includes/users/template-tags.php:497
 msgid "Admin"
-msgstr ""
+msgstr "Administrátor"
 
 #: includes/users/template-tags.php:674
 #: templates/default/bbpress-functions.php:256
@@ -4555,12 +4568,12 @@ msgstr ""
 #: includes/users/template-tags.php:825
 #: templates/default/bbpress-functions.php:265
 msgid "Subscribe"
-msgstr ""
+msgstr "Odebírat"
 
 #: includes/users/template-tags.php:826
 #: templates/default/bbpress-functions.php:266
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Zrušit odběr"
 
 #: includes/users/template-tags.php:892
 msgid "User updated."
