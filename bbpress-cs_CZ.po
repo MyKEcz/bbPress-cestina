@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the 2.2.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-28 13:08+0100\n"
+"PO-Revision-Date: 2013-07-14 16:33+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 "Project-Id-Version: 2.2.x\n"
 "POT-Creation-Date: \n"
 "Last-Translator: MyKE <michael@sabrnak.cz>\n"
@@ -3550,7 +3550,7 @@ msgstr "Zapamatovat si mě"
 #: includes/common/widgets.php:115
 #: templates/default/bbpress/form-user-register.php:36
 msgid "Register"
-msgstr "Regostrovat"
+msgstr "Registrovat"
 
 #: includes/common/widgets.php:121
 #: templates/default/bbpress/form-user-lost-pass.php:14
